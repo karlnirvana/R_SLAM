@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="myslam" targetName="myslam" />
+      <config projectName="myslam" targetName="run_vo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f37ec8c-67f2-4004-b2d1-95133d95bef6" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/camera.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visual_odometry.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9068">
+              <caret line="668" column="20" selection-start-line="668" selection-start-column="20" selection-end-line="668" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#783#0" />
+                <element signature="e#785#823#0" expanded="true" />
+                <element signature="e#1065#2020#0" />
+                <element signature="e#2022#2060#0" />
+                <element signature="e#2062#3360#0" />
+                <element signature="e#3362#6648#0" />
+                <element signature="e#14096#17990#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/run_vo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#57#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/default.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/optimize_end.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/myslam/config.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mappoint.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frame.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/myslam/visual_odometry.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+              <folding>
+                <element signature="e#836#870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+      <find>Tcw</find>
+      <find>gray</find>
+      <find>project</find>
+      <find>m_data</find>
+      <find>optimizer</find>
+      <find>point_</find>
+      <find>ref_</find>
+      <find>T_c_w_estimated_</find>
+      <find>addMapPoints</find>
+      <find>map_points_</find>
+      <find>matched_times_</find>
+      <find>map_</find>
+      <find>pixel2camera</find>
+      <find>match_3dpts_</find>
+      <find>T_c_w_</find>
+      <find>measurements_</find>
+      <find>Frame(</find>
+      <find>findDepth</find>
+      <find>keypoints_curr_</find>
+      <find>isInFrame</find>
+      <find>derivative</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/myslam/initializer.h" />
+        <option value="$PROJECT_DIR$/src/initializer.cpp" />
+        <option value="$PROJECT_DIR$/include/myslam/direct_semidense.h" />
+        <option value="$PROJECT_DIR$/src/direct_semidense.cpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/myslam/camera.h" />
+        <option value="$PROJECT_DIR$/src/camera.cpp" />
+        <option value="$PROJECT_DIR$/include/myslam/common_include.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/myslam/mappoint.h" />
+        <option value="$PROJECT_DIR$/src/mappoint.cpp" />
+        <option value="$PROJECT_DIR$/src/g2o_types.cpp" />
+        <option value="$PROJECT_DIR$/include/myslam/optimize_end.h" />
+        <option value="$PROJECT_DIR$/cmake_modules/FindG2O.cmake" />
+        <option value="$PROJECT_DIR$/config/default.yaml" />
+        <option value="$PROJECT_DIR$/include/myslam/visual_odometry.h" />
+        <option value="$PROJECT_DIR$/src/optimize_end.cpp" />
+        <option value="$PROJECT_DIR$/include/myslam/frame.h" />
+        <option value="$PROJECT_DIR$/test/run_vo.cpp" />
+        <option value="$PROJECT_DIR$/src/frame.cpp" />
+        <option value="$PROJECT_DIR$/include/myslam/g2o_types.h" />
+        <option value="$PROJECT_DIR$/src/visual_odometry.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-myslam" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1147" />
+    <option name="y" value="419" />
+    <option name="width" value="1853" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="myslam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myslam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="R_SLAM" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TSD_SLAM2 (copy)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.run_vo">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myslam" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myslam" TARGET_NAME="myslam" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_vo" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/config/default.yaml" PASS_PARENT_ENVS_2="true" PROJECT_NAME="myslam" TARGET_NAME="run_vo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="myslam" RUN_TARGET_NAME="run_vo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.myslam" />
+      <item itemvalue="CMake Application.run_vo" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f37ec8c-67f2-4004-b2d1-95133d95bef6" name="Default Changelist" comment="" />
+      <created>1552039054336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552039054336</updated>
+      <workItem from="1552039055510" duration="486000" />
+      <workItem from="1552039668578" duration="2555000" />
+      <workItem from="1552268989114" duration="1161000" />
+      <workItem from="1552286111225" duration="3544000" />
+      <workItem from="1552359116025" duration="2102000" />
+      <workItem from="1552444651255" duration="7310000" />
+      <workItem from="1552452981674" duration="16033000" />
+      <workItem from="1553846712008" duration="8864000" />
+      <workItem from="1554100899710" duration="22096000" />
+      <workItem from="1554169053999" duration="6538000" />
+      <workItem from="1554176461227" duration="254000" />
+      <workItem from="1554186970017" duration="9548000" />
+      <workItem from="1554259801864" duration="4054000" />
+      <workItem from="1554272748173" duration="13093000" />
+      <workItem from="1555914936787" duration="11920000" />
+      <workItem from="1556073715800" duration="875000" />
+      <workItem from="1556091087717" duration="7730000" />
+      <workItem from="1556100746784" duration="2962000" />
+      <workItem from="1556244237299" duration="2182000" />
+      <workItem from="1556259839098" duration="3149000" />
+      <workItem from="1557201624312" duration="99000" />
+      <workItem from="1557201927340" duration="3000" />
+      <workItem from="1557209916085" duration="803000" />
+      <workItem from="1557278597514" duration="1206000" />
+      <workItem from="1557308762520" duration="2599000" />
+      <workItem from="1557366374924" duration="5840000" />
+      <workItem from="1557452129338" duration="12333000" />
+      <workItem from="1557716660934" duration="956000" />
+      <workItem from="1557796915791" duration="598000" />
+      <workItem from="1557883535382" duration="595000" />
+      <workItem from="1557908674587" duration="2359000" />
+      <workItem from="1557968177705" duration="680000" />
+      <workItem from="1558941951512" duration="598000" />
+      <workItem from="1560942228913" duration="5720000" />
+      <workItem from="1561097440310" duration="4488000" />
+      <workItem from="1561286804740" duration="537000" />
+      <workItem from="1561629568881" duration="1910000" />
+      <workItem from="1562146360954" duration="1989000" />
+      <workItem from="1562157413341" duration="15000" />
+      <workItem from="1562297384650" duration="1394000" />
+      <workItem from="1562835138754" duration="182000" />
+      <workItem from="1562835887860" duration="11000" />
+      <workItem from="1562835928342" duration="18000" />
+      <workItem from="1562836010610" duration="5264000" />
+      <workItem from="1563160958085" duration="1322000" />
+      <workItem from="1563351526589" duration="1922000" />
+      <workItem from="1563410973035" duration="3122000" />
+      <workItem from="1563756977978" duration="1624000" />
+      <workItem from="1563779789905" duration="1290000" />
+      <workItem from="1563929108989" duration="599000" />
+      <workItem from="1566813233942" duration="618000" />
+      <workItem from="1567140486739" duration="1759000" />
+      <workItem from="1571712551580" duration="1224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="190133000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1147" y="419" width="1853" height="1048" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16768125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997233" visible="true" weight="0.35555556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27783558" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27319062" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5002767" side_tool="true" weight="0.35555556" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.2867347" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27724868" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13678986" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28511965" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/../directMethod/direct_semidense.cpp</url>
+          <line>261</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>state_</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m_data</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>size_t(m_data)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/include/myslam/initializer.h" />
+    <entry file="file://$PROJECT_DIR$/src/initializer.cpp" />
+    <entry file="file:///usr/local/include/g2o/core/base_unary_edge.h" />
+    <entry file="file://$PROJECT_DIR$/../directMethod/direct_semidense.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/direct_semidense.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="542" selection-start-line="542" selection-end-line="542" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="560" selection-start-line="560" selection-end-line="560" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/util/Constants.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4972">
+          <caret line="325" column="17" selection-start-line="325" selection-start-column="17" selection-end-line="325" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/util/XprHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="182" column="101" selection-start-line="182" selection-start-column="96" selection-end-line="182" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/core/base_unary_edge.hpp" />
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/util/Macros.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13156">
+          <caret line="598" column="12" selection-start-line="598" selection-start-column="12" selection-end-line="598" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../catkin_ws/src/SVO/Sophus/sophus/se3.h" />
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/DenseStorage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1645">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/mat.inl.hpp" />
+    <entry file="file://$PROJECT_DIR$/include/myslam/direct_semidense.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/solvers/dense/linear_solver_dense.h" />
+    <entry file="file:///usr/local/include/g2o/core/sparse_optimizer.h" />
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/opencv-3.4.3/modules/imgproc/src/color.cpp" />
+    <entry file="file:///usr/local/include/g2o/core/base_edge.h" />
+    <entry file="file:///usr/local/include/opencv2/core/mat.hpp" />
+    <entry file="file://$PROJECT_DIR$/../Downloads/opencv-3.4.3/modules/core/src/matrix.cpp" />
+    <entry file="file://$PROJECT_DIR$/include/myslam/map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/MapBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3674">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/g2o/core/block_solver.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/camera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_algo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="5466" column="4" selection-start-line="5466" selection-start-column="4" selection-end-line="5466" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/opencv2/core/types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="806" column="21" selection-start-line="806" selection-start-column="21" selection-end-line="806" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake_modules/FindG2O.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/common_include.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/optimize_end.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#830#864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/g2o_types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/frame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/Matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6450">
+          <caret line="258" column="24" selection-start-line="258" selection-start-column="24" selection-end-line="258" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/mappoint.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/g2o_types.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2950">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+          <folding>
+            <element signature="e#50#366#0" />
+            <element signature="e#368#1491#0" />
+            <element signature="e#1493#1739#0" />
+            <element signature="e#1741#2672#0" />
+            <element signature="e#2674#2921#0" />
+            <element signature="e#2923#3873#0" />
+            <element signature="e#3876#4562#0" />
+            <element signature="e#4564#6267#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/default.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappoint.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/myslam/visual_odometry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+          <folding>
+            <element signature="e#836#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/camera.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optimize_end.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visual_odometry.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9068">
+          <caret line="668" column="20" selection-start-line="668" selection-start-column="20" selection-end-line="668" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#783#0" />
+            <element signature="e#785#823#0" expanded="true" />
+            <element signature="e#1065#2020#0" />
+            <element signature="e#2022#2060#0" />
+            <element signature="e#2062#3360#0" />
+            <element signature="e#3362#6648#0" />
+            <element signature="e#14096#17990#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/run_vo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#57#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
